@@ -1,0 +1,16 @@
+{
+  "name": "bible-tools-data",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "bin/local-http-server.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bible-tools/data.git"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/bible-tools/data",
+  "devDependencies": {
+    "http-server": "^0.12.0"
+  }
+}
