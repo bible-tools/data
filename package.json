@@ -1,8 +1,11 @@
 {
+  "author": "",
   "name": "bible-tools-data",
   "version": "0.0.1",
+  "main": "bin/reference_maker.js",
   "scripts": {
-    "start": "bin/local-http-server.sh"
+    "start": "bin/local-http-server.sh",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -11,6 +14,7 @@
   "license": "ISC",
   "homepage": "https://github.com/bible-tools/data",
   "devDependencies": {
+    "fs-extra": "^8.1.0",
     "http-server": "^0.12.0"
   }
 }
